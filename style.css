@@ -57,7 +57,9 @@
 .new-year-photo {
   margin-top: 48px;
 }
-/* Main > first section  */
+/* Main > first section end  */
+
+/* Main > second section start */
 .second-section {
   background: url("./resources/Vectorrr.png");
   margin-top: 120px;
@@ -84,17 +86,50 @@
   font-family: "Inter", sans-serif;
 }
 .first-btn {
-    font-family: "Inter", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    margin-top: 48px;
-    margin-left: 158px;
-    color: #fff;
-    background: #000;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 48px;
+  margin-left: 158px;
+  color: #fff;
+  background: #000;
 }
-.year-2024{
-    padding-left: 155px;
-    padding-top: 75px;
-    margin-bottom: 55px;
+.year-2024 {
+  padding-left: 155px;
+  padding-top: 75px;
+  margin-bottom: 55px;
 }
-/* Main > second section start */
+/* Main > second section end */
+/* Main > third section start */
+.section-of-third {
+  background-color: #fde9e9e7;
+  margin-bottom: 120px;
+  text-align: center;
+  width: 1320px;
+  height: 482px;
+}
+.new-park p,
+span {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  /* line-height: 56px; */
+}
+.new-park {
+  padding-top: 100px;
+}
+.new-park span {
+  color: #f00;
+}
+.new-park button {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  margin-top: 48px;
+  padding: 16px 32px;
+  gap: 10px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #f00;
+}
+
+/* Main > second section end */

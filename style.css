@@ -166,24 +166,89 @@ span {
   font-weight: 900;
   margin-bottom: 22px;
 }
-.new-best p{
-    font-family: "Inter", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    color: rgba(7, 2, 17, 0.60);
+.new-best p {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(7, 2, 17, 0.6);
 }
-.dolar2024{
-    padding-left: 118px;
+.dolar2024 {
+  padding-left: 118px;
 }
-.dolar2024 h2{
-    font-family: "Inter", sans-serif;
-    font-size: 48px;
-    font-weight: 700;
-    color: #f00;
-    margin-top: 110px;
-    padding-bottom: 16px;
+.dolar2024 h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #f00;
+  margin-top: 110px;
+  padding-bottom: 16px;
 }
-.dolar2024 img{
-    padding-top: 60px;
+.dolar2024 img {
+  padding-top: 60px;
 }
 /* Main > fourth section end */
+
+/* Main > fifth section start */
+.holiday-sale {
+  text-align: center;
+  margin-top: 120px;
+}
+.holiday-sale h4 {
+  font-family: "Inter", sans-serif;
+  color: #070211;
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 16px;
+}
+.holiday-sale span {
+  font-family: "Merriweather", serif;
+  font-size: 72px;
+  font-weight: 900;
+}
+.holiday-sale p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 28px;
+}
+.red-background {
+  background: url("./resources/Rectangle\ 2.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.red-background {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+/* Main > fifth section end */
+/* Main > sixth section start */
+.sixth-section {
+  margin-top: 120px;
+}
+.sixth-section h4 {
+  font-family: "Inter", sans-serif;
+  color: #f00;
+  padding-bottom: 16px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.sixth-section h1 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+.sixth-section p {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(7, 2, 17, 0.6);
+}
+.sixth-parent-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+  margin-top: 48px;
+}
+/* Main > sixth section end */

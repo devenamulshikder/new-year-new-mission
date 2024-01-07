@@ -104,6 +104,7 @@
 .section-of-third {
   background-color: #fde9e9e7;
   margin-bottom: 120px;
+  border-radius: 10px;
   text-align: center;
   width: 1320px;
   height: 482px;
@@ -131,5 +132,58 @@ span {
   color: #fff;
   background-color: #f00;
 }
+/* Main > third section end */
 
-/* Main > second section end */
+/* Main > fourth section start */
+.new-best {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.images-circle {
+  width: 463px;
+  height: 463px;
+  border-radius: 463px;
+  border: 15px solid #f00;
+}
+.images-circle {
+  padding-left: 35px;
+  padding-top: 35px;
+}
+.fourth-section {
+  text-align: left;
+}
+.new-best h4 {
+  font-family: "Inter", sans-serif;
+  color: #f00;
+  margin-top: 104px;
+  padding-bottom: 16px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.new-best h1 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+.new-best p{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.60);
+}
+.dolar2024{
+    padding-left: 118px;
+}
+.dolar2024 h2{
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #f00;
+    margin-top: 110px;
+    padding-bottom: 16px;
+}
+.dolar2024 img{
+    padding-top: 60px;
+}
+/* Main > fourth section end */

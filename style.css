@@ -13,7 +13,7 @@
   background: url(./resources/Banner\ Image.png);
   border-radius: 16px;
   height: 600px;
-  margin-top: 50px
+  margin-top: 50px;
 }
 .first-heading {
   color: #fff;
@@ -25,10 +25,32 @@
   font-size: 72px;
   padding-top: 16px;
 }
-.first-heading h3{
-    font-size: 32px;
+.first-heading h3 {
+  font-size: 32px;
 }
 /* header section end here */
 /* Main section start */
-
+.percentage {
+  color: #f00;
+  font-size: 88px;
+  font-weight: 700;
+  margin-top: 120px;
+}
+.first-section {
+  text-align: center;
+}
+.first-section p {
+  color: #f00;
+  font-weight: 500px;
+  font-size: 24px;
+  /* padding-top: 48px; */
+  margin-top: 48px;
+}
+.first-section h2 {
+  font-size: 48px;
+  padding-top: 16px;
+}
+.new-year-photo {
+  margin-top: 48px;
+}
 /* Main section start */

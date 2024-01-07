@@ -61,6 +61,7 @@
 .second-section {
   background: url("./resources/Vectorrr.png");
   margin-top: 120px;
+  margin-bottom: 120px;
 }
 .midnight-party {
   display: flex;

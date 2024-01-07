@@ -57,4 +57,43 @@
 .new-year-photo {
   margin-top: 48px;
 }
-/* Main section start */
+/* Main > first section  */
+.second-section {
+  background: url("./resources/Vectorrr.png");
+  margin-top: 120px;
+}
+.midnight-party {
+  display: flex;
+}
+.welcome-party {
+  font-size: 64px;
+  color: #fff;
+  padding-top: 126px;
+  padding-left: 126px;
+  font-weight: 900;
+  width: 642px;
+  /* line-height: 88px; 137.5% */
+}
+.second-section p {
+  color: rgba(255, 255, 255, 0.8);
+  padding-left: 126px;
+  padding-top: 24px;
+  width: 697px;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+}
+.first-btn {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 48px;
+    margin-left: 158px;
+    color: #fff;
+    background: #000;
+}
+.year-2024{
+    padding-left: 155px;
+    padding-top: 75px;
+    margin-bottom: 55px;
+}
+/* Main > second section start */

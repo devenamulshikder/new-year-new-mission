@@ -1,6 +1,34 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Merriweather', serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
 }
+.body {
+  max-width: 1320px;
+  margin: auto;
+}
+/* header section start here */
+.first-banner {
+  background: url(./resources/Banner\ Image.png);
+  border-radius: 16px;
+  height: 600px;
+  margin-top: 50px
+}
+.first-heading {
+  color: #fff;
+  text-align: center;
+  padding: 177px 344px;
+}
+
+.first-heading h1 {
+  font-size: 72px;
+  padding-top: 16px;
+}
+.first-heading h3{
+    font-size: 32px;
+}
+/* header section end here */
+/* Main section start */
+
+/* Main section start */

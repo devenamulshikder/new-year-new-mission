@@ -10,19 +10,20 @@
       rel="stylesheet"
     />
   </head>
-  <body class="body">
-    <header class="first-banner">
-      <!-- header section start here -->
-      <nav class="first-heading">
-        <h3>Happy New Year</h3>
-        <h1>
-          New Year Party <br />
-          Celebration
-        </h1>
-      </nav>
-      <!-- header section end here -->
-    </header>
-    <main>
+  <body>
+    <main class="body">
+      <header class="first-banner">
+        <!-- header section start here -->
+        <nav class="first-heading">
+          <h3>Happy New Year</h3>
+          <h1>
+            New Year Party <br />
+            Celebration
+          </h1>
+        </nav>
+        <!-- header section end here -->
+      </header>
+
       <!-- main > first section start -->
       <section class="first-section">
         <h1 class="percentage">65% OFF</h1>
@@ -108,8 +109,11 @@
           <div class="gift-box">
             <img src="./resources/Group 75.png" alt="" />
           </div>
-          <div>
+          <div class="offer-container">
             <img src="./resources/Rectangle 1.png" alt="" />
+            <div class="offer">
+              <img src="./resources/Group 44.png" alt="" />
+            </div>
           </div>
         </div>
       </section>
@@ -137,42 +141,64 @@
       <!-- main > seventh section start here -->
       <section class="subscribe-newsletter">
         <div class="seventh">
-          <img src="./resources/Group 61.png" alt="">
+          <img src="./resources/Group 61.png" alt="" />
           <h1>Subscribe Newsletter</h1>
-          <p>Dolor sit amet consectetur. Consequat eget consectetur maecenas sed molestie malesuada.<br> Ipsum sed sodales risus ut pellentesque vel euismod. </p>
+          <p>
+            Dolor sit amet consectetur. Consequat eget consectetur maecenas sed
+            molestie malesuada.<br />
+            Ipsum sed sodales risus ut pellentesque vel euismod.
+          </p>
         </div>
-        <div>
-          <button style="width: 210px; height: 72px; background-color: #f00; color: aliceblue; border-radius: 0px 50px 50px 0px; font-size: 20px;
-          font-weight: 600; ">Subscribe</button>
+        <div class="btn-position">  <input type="email"  id="email" placeholder="user@email.com">
+          <button
+            style="
+              width: 210px;
+              height: 72px;
+              background-color: #f00;
+              color: aliceblue;
+              border-radius: 0px 50px 50px 0px;
+              font-size: 20px;
+              font-weight: 600;
+              position: relative;
+              right: 250px;
+            "
+          >
+            Subscribe
+          </button>
         </div>
       </section>
       <!-- main > seventh section end here -->
     </main>
     <footer class="footer">
-      <div class="footer-parent">
-        <div>44, Big Building Roosevelt Street<br>
-          Beach Gardens Florida 33410</div>
-        <div>
-          <img src="./resources/Call.png" alt="">+00 123 584 124 <br>
-          <img src="./resources/Website.png" alt="">www.website.com
+
+      <div class="body">
+        <div class="footer-parent">
+          <div>
+            44, Big Building Roosevelt Street<br />
+            Beach Gardens Florida 33410
+          </div>
+          <div>
+            <img src="./resources/Call.png" alt="" />+00 123 584 124 <br />
+            <img src="./resources/Website.png" alt="" />www.website.com
+          </div>
         </div>
-      </div>
-      <div class="icon-png">
-        <div>
-          <img src="./resources/Facebook.png" alt="">
+        <div class="icon-png">
+          <div>
+            <img src="./resources/Facebook.png" alt="" />
+          </div>
+          <div>
+            <img src="./resources/Instagram.png" alt="" />
+          </div>
+          <div>
+            <img src="./resources/Linkedin.png" alt="" />
+          </div>
+          <div>
+            <img src="./resources/Twitter.png" alt="" />
+          </div>
         </div>
         <div>
-          <img src="./resources/Instagram.png" alt="">
+          <button>Unsubscribe</button>
         </div>
-        <div>
-          <img src="./resources/Linkedin.png" alt="">
-        </div>
-        <div>
-          <img src="./resources/Twitter.png" alt="">
-        </div>
-      </div>
-      <div>
-        <button>Unsubscribe</button>
       </div>
     </footer>
   </body>

@@ -346,28 +346,63 @@ span {
 .footer{
     background-color: #000;
     margin-top: 120px;
+    /* font-family: "Inter", sans-serif; */
+}
+footer span{
+  font-size: 24px;
+  font-weight: 500;
 }
 .footer-parent{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 250px;
-    justify-content: space-between;
+    gap: 500px;
     text-align: cente;
     color: #fff;
-    font-family: "Inter", sans-serif;
     font-size: 24px;
     font-weight: 500;
-    /* justify-content: space-around; */
+    padding-top: 120px;
 }
-
+.footer-parent img{
+  padding-right: 16px;
+  margin-top: 16px;
+}
+.big-building{
+  margin-top: 16px;
+  font-family: "Inter", sans-serif;
+}
+.lines{
+  margin-top: 50px;
+  border: solid rgba(6, 6, 94, 0.233);
+  margin-bottom: 50px;
+}
 .icon-png{
     display: flex;
     gap: 24px;
     justify-content: center;
+    margin: 48px 0 48px 0;
+}
+.lasting{
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 120px;
+}
+footer .all-right{
+  font-size: 24px;
+  font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color: #fff;
 }
 footer button {
-    
-    color: #000000;
+  font-size: 24px;
+  font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    background-color: #000;
+    background: transparent;
+    border: none;
 }
 
 

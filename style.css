@@ -10,7 +10,7 @@
 }
 /* header section start here */
 .first-banner {
-  background: url('./resources/Banner\ Image.png');
+  background: url("./resources/Banner\ Image.png");
   border-radius: 16px;
   height: 600px;
   margin-top: 50px;
@@ -37,7 +37,6 @@
   margin: 200px auto;
   /* padding: 177px 50%; */
   /* font-weight: 900; */
-
 }
 
 .first-heading h1 {
@@ -80,7 +79,8 @@
 
 /* Main > second section start */
 .second-section {
-  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("./resources/Vectorrr.png");
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("./resources/Vectorrr.png");
   margin-top: 120px;
   margin-bottom: 120px;
   border-radius: 16px;
@@ -118,9 +118,9 @@
   border-radius: 10px;
   cursor: pointer;
 }
-.first-btn:hover{
+.first-btn:hover {
   background-color: rgba(255, 105, 180, 0.446);
-  transition: all 0.10s;
+  transition: all 0.1s;
 }
 .year-2024 {
   padding-left: 155px;
@@ -137,7 +137,7 @@
   width: 1320px;
   height: 482px;
 }
-.section-of-third{
+.section-of-third {
   background: linear-gradient(
     180deg,
     rgba(255, 0, 0, 0.1) 0%,
@@ -253,17 +253,15 @@ span {
   background-repeat: no-repeat;
   background-position: bottom;
 }
-.offer-container{
+.offer-container {
   position: relative;
   top: 6px;
 }
 .offer {
-  
   position: absolute;
- top: 78px;
-    /* right: 20px; */
-    left: -158px;
-
+  top: 78px;
+  /* right: 20px; */
+  left: -158px;
 }
 .red-background {
   display: grid;
@@ -271,7 +269,6 @@ span {
   gap: 94px;
 }
 /* Main > fifth section end */
-
 
 /* Main > sixth section start */
 .sixth-section {
@@ -325,11 +322,11 @@ span {
   color: rgba(7, 2, 17, 0.6);
 }
 .subscribe-newsletter button {
-   margin-bottom: 80px;
-    margin-top: 48px;
-    margin-left: 500px;
+  margin-bottom: 80px;
+  margin-top: 48px;
+  margin-left: 500px;
 }
-.btn-position input{
+.btn-position input {
   font-family: "Inter", sans-serif;
   padding-bottom: 2px;
   width: 410px;
@@ -343,45 +340,45 @@ span {
 }
 /* Main > seventh end start */
 /* footer section */
-.footer{
-    background-color: #000;
-    margin-top: 120px;
-    /* font-family: "Inter", sans-serif; */
+.footer {
+  background-color: #000;
+  margin-top: 120px;
+  /* font-family: "Inter", sans-serif; */
 }
-footer span{
+footer span {
   font-size: 24px;
   font-weight: 500;
 }
-.footer-parent{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 500px;
-    text-align: cente;
-    color: #fff;
-    font-size: 24px;
-    font-weight: 500;
-    padding-top: 120px;
+.footer-parent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 500px;
+  text-align: cente;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 120px;
 }
-.footer-parent img{
+.footer-parent img {
   padding-right: 16px;
   margin-top: 16px;
 }
-.big-building{
+.big-building {
   margin-top: 16px;
   font-family: "Inter", sans-serif;
 }
-.lines{
+.lines {
   margin-top: 50px;
   border: solid rgba(6, 6, 94, 0.233);
   margin-bottom: 50px;
 }
-.icon-png{
-    display: flex;
-    gap: 24px;
-    justify-content: center;
-    margin: 48px 0 48px 0;
+.icon-png {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin: 48px 0 48px 0;
 }
-.lasting{
+.lasting {
   display: flex;
   justify-content: space-between;
   color: #fff;
@@ -389,20 +386,18 @@ footer span{
   font-weight: 500;
   padding-bottom: 120px;
 }
-footer .all-right{
+footer .all-right {
   font-size: 24px;
   font-weight: 500;
-    font-family: "Inter", sans-serif;
-    color: #fff;
+  font-family: "Inter", sans-serif;
+  color: #fff;
 }
 footer button {
   font-size: 24px;
   font-weight: 500;
-    font-family: "Inter", sans-serif;
-    color: #fff;
-    background-color: #000;
-    background: transparent;
-    border: none;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  background-color: #000;
+  background: transparent;
+  border: none;
 }
-
-
